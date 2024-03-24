@@ -36,7 +36,13 @@ nav > img {
   width: 50rem;
   margin-top: 5rem;
   padding: 1rem;
+  transition: transform 0.3s ease;
 }
+
+.card:hover {
+  transform: scale(1.05);
+}
+
 
 .card > img {
   width: 15rem;
@@ -48,7 +54,6 @@ nav > img {
 .card-location-content {
   display: flex;
   justify-content: space-between;
-  width: 90%;
   align-items: center;
 }
 
