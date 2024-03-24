@@ -1,0 +1,19 @@
+body {
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f55a5a;
+  color: white;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 8px 6px -6px grey;
+}
+
+nav > img {
+  height: 50px;
+  width: 50px;
+  padding-right: 0.5rem;
+}
